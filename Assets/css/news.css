@@ -1,0 +1,55 @@
+
+html, body, div, ul, ol, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+a {
+    color: #929292;
+    text-decoration: none
+}
+a:hover {
+    color: #E6002D
+}
+.newslist {
+    width: 100%;
+    /* background:#E6002D; */
+}
+.newslist .main {
+    width: 1099px;
+    min-width: 1099px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 30px
+}
+.newslist .main .info .list li {
+    padding: 10px;
+    padding-right: 30px;
+    height: 225px;
+    list-style: none;
+    background: #EFEFF0;
+    margin-bottom: 15px;
+}
+
+.newslist .main .info .list li .leftimg {
+    float: left;
+    width: 350px;
+    margin-right: 40px;
+}
+
+.newslist .main .info .list li .leftimg img {
+    width: 350px;
+    height: 206px;
+}
+
+.newslist .main .info .list li .question {
+    color: #404a58;
+    font-size: 18px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+

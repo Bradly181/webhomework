@@ -1,0 +1,30 @@
+@charset "utf-8";
+<style>
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+button {
+  overflow: visible;
+}
+*{margin:0; padding:0; font-family:"微软雅黑";}
+body{background-color:#dcdcdc;}
+.title{width:150px; border-top:solid 3px #00a0e9; margin-left:auto; margin-right:auto; margin-top:40px; color:#373737; text-align:center;}
+.title .span1{font-family:Helvetica Light; font-size:48px;}
+.title .span2{font-size:30px;}
+.team{width:1200px; margin-left:auto; margin-right:auto;}
+.team li{float:left; width:300px; height:250px; background-repeat:no-repeat; background-position:center;}
+.team li span{text-align:center; font-size:30px; color:#FFF; line-height:80px;width:300px; height:200px; display:block; padding-top:50px; opacity:0;}
+.team li span:hover{background-color:rgba(0,160,233,0.6); opacity:1;}
+.rightone,.leftone{overflow:hidden; width:1200px; margin-left:auto; margin-right:auto;}
+.rightone img,.leftone img{float:left;}
+.rightone p,.leftone p{float:left; width:500px; padding:65px 50px; font-size:20px; line-height:30px; color:#373737;}
+</style>
+
+
